@@ -1,0 +1,21 @@
+html,body{
+        margin: 0;
+}
+.header{
+        width: 100%;
+        height: 100vh;
+
+        /*background-image: url(https://vaithuhayho.com/wp-content/uploads/2021/03/anh-nen-dep-5.jpg);
+        background-size: 20%;/*chỉ định kích thước của background.
+        background-repeat: no-repeat; */
+        /* chỉ định cách lặp lại background. Giá trị no-repeat có nghĩa là background chỉ được hiển thị một lần duy nhất, không bị lặp lại. */
+
+        /* background-image: linear-gradient(0,black,white); */
+        /* gradient màu tuyến tính từ đen sang trắng theo hướng ngang (với góc là 0 độ). */
+
+
+        /* KẾT HỢP  BACKGROUND-IMAGE: LINEAR-GRADIENT VÀ BACKGROUND-IMAGE: URL(); */
+        background-image: linear-gradient(0,rgba(255,255,0,0.5),rgba(0,0,255,0.5)),
+        url(https://vaithuhayho.com/wp-content/uploads/2021/03/anh-nen-dep-5.jpg);
+        background-repeat: no-repeat;
+}

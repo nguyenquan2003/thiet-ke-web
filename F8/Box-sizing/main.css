@@ -1,0 +1,13 @@
+.box
+{
+        width: 100px;
+        height: 100px;
+        color: white;
+        background-color: red;
+        padding:16px;
+        margin: 0;
+        box-sizing: border-box;
+        /*  box-sizing: border-box : xác định cách tính toán kích thước của phần tử. 
+        Khi áp dụng thuộc tính này cho một phần tử, kích thước của phần tử 
+        bao gồm cả border và padding, và chỉ tính toán kích thước của nội dung bên trong phần tử. */
+}

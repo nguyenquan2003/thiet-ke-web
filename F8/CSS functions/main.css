@@ -1,0 +1,18 @@
+html,body{
+        margin: 0;
+}
+.box{
+        width: calc(120px + 50px);
+        height: 120px;
+        background: rgb(190, 124, 157);
+}
+/* .box::after{
+        content: attr(data);
+}
+a::after{
+        content: "("attr(href)")";
+} */
+
+.box::active{
+        content: attr(data);
+}

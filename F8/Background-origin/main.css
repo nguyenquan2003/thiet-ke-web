@@ -1,0 +1,23 @@
+html,body{
+        margin: 0;
+}
+.header{
+        width: 100%;
+        height: 100vh;
+
+        background-image: url(https://vaithuhayho.com/wp-content/uploads/2021/03/anh-nen-dep-5.jpg);
+        /* background-size: contain;
+        thay đổi kích thước của hình nền sao cho nó vừa với kích thước của phần tử chứa nó mà không làm thay đổi tỷ lệ khung hình của hình*/ 
+        background-repeat: no-repeat;
+        border: 20px dashed red;
+        padding: 20px;
+        box-sizing: border-box;
+
+        /* background-origin: padding-box; sẽ làm cho hình nền bắt đầu từ phần padding của phần tử.
+        background-origin: border-box; sẽ làm cho hình nền bắt đầu từ đường biên (border) của phần tử.
+        background-origin: content-box; sẽ làm cho hình nền bắt đầu từ phần nội dung (content) của phần tử. */
+
+        /* background-origin:padding-box; */
+        /* background-origin: border-box; */
+        background-origin: content-box;
+}

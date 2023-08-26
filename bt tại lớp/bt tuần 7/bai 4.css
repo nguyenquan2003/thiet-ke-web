@@ -1,0 +1,10 @@
+img{
+        width: 20rem;
+        height: auto;
+}
+div{
+        width: 40%;
+        box-shadow: 0px 4px 8px rgba(145, 129, 175, 0.718);
+        text-align: center;
+        margin: 0 auto;
+}

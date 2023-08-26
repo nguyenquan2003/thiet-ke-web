@@ -1,0 +1,12 @@
+table {
+        width: 100px;
+        margin: 0 auto;
+}
+
+td {
+        font-size: 14px;
+}
+
+img:hover {
+        transform: scale(1.3);
+}

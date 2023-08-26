@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="mycanvas" width="300" height="300" style="border: 1px solid red;"></canvas>
+    <script>
+        var c = document.getElementById("mycanvas");
+        var ctx = c.getContext("2d");
+        var i = 70;
+        while (i >= 10) {
+            ctx.beginPath();
+            ctx.arc(100, 100, i, 0, Math.PI / 2);
+            ctx.stroke();
+
+            ctx.beginPath();
+            ctx.arc(100, 100, i, Math.PI, 3 * Math.PI / 2);
+            ctx.stroke();
+
+            i = i - 20;
+        }
+    </script>
+</body>
+</html>

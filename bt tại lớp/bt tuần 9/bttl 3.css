@@ -1,0 +1,322 @@
+.logo {
+        border: 2px solid black;
+        width: 125px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        background: peru;
+        color: white;
+}
+
+.button2 {
+        float: right;
+        top: 0;
+        right: 0;
+        border: 2px solid black;
+        width: 150px;
+        height: 70px;
+        background: peru;
+        color: white;
+        text-align: center;
+        line-height: 50px;
+        margin-top: -3.4em;
+        top: 5%;
+        right: 1%;
+        position: absolute;
+}
+
+.button1 {
+        float: right;
+        /* top: 0; */
+        /* right: 250px; */
+        width: 150px;
+        height: 70px;
+        border: 2px solid black;
+        background: peru;
+        color: white;
+        text-align: center;
+        line-height: 50px;
+        margin-top: -5em;
+        position: absolute;
+        top: 7.2%;
+        right: 8%;
+        transform: translateY(2px);
+}
+
+.active {
+        background-color: #ccc;
+}
+
+body {
+        position: relative;
+}
+
+ul li {
+        cursor: pointer;
+}
+
+.menu {
+        background-color: peru;
+        font-size: 2rem;
+        width: auto;
+        line-height: 70px;
+        height: 3rem;
+}
+
+.menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+
+.menu li {
+        display: inline-block;
+        position: relative;
+}
+
+.menu li a {
+        display: block;
+        padding: 10px 20px;
+        color: #333;
+        text-decoration: none;
+}
+
+.menu li:hover {
+        background-color: #ccc;
+}
+
+.menu ul ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: none;
+}
+
+.menu ul li:hover>ul {
+        display: inherit;
+}
+
+.menu ul ul li {
+        display: block;
+        width: 258px;
+}
+
+.menu ul ul li a {
+        padding: 10px 15px;
+        color: #fff;
+        background-color: #333;
+}
+
+.menu ul ul li:hover a {
+        background-color: #4CAF50;
+}
+
+.link {
+        background-color: aqua;
+        font-size: 30px;
+        width: auto;
+        line-height: 70px;
+        height: 3rem;
+        float: right;
+        margin-top: -6rem;
+}
+
+.link ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+
+.link li {
+        display: inline-block;
+        position: relative;
+}
+
+.link li a {
+        display: block;
+        padding: 10px 20px;
+        color: #333;
+        text-decoration: none;
+}
+
+.link li:hover {
+        background-color: #ccc;
+}
+
+.link ul ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: none;
+}
+
+.link ul li:hover>ul {
+        display: inherit;
+}
+
+.link ul ul li {
+        display: block;
+        width: 258px;
+}
+
+.link ul ul li a {
+        padding: 10px 15px;
+        color: #fff;
+        background-color: #333;
+}
+
+.link ul ul li:hover a {
+        background-color: #4CAF50;
+}
+
+.sp {
+        margin-top: 2rem;
+        margin-bottom: 0.5em;
+        width: 50%;
+}
+
+.khung {
+        border: 3px solid black;
+        width: 12rem;
+        height: 8rem;
+        padding: 10px;
+}
+
+.tieu-de {
+        margin-left: 14rem;
+        margin-top: -10rem;
+}
+
+.container {
+        display: flex;
+        border: 3px solid black;
+        width: 42rem;
+        height: 5rem;
+        margin: 50px 1px;
+        padding: 20px;
+
+}
+
+.khung1,
+.khung2,
+.khung3,
+.khung4,
+.khung5,
+.khung6 {
+        width: 300px;
+        height: 50px;
+        background: peru;
+        border: 3px solid black;
+        padding: 30px;
+}
+
+.tin-tuc {
+        width: 46%;
+}
+
+.banner {
+        border: 1px solid black;
+        width: 700px;
+        height: auto;
+        text-align: center;
+        margin: 50px 1px 20px 1px; 
+        background: peru;
+        display: block;
+}
+
+.footer-left {
+        margin-top: -20px;
+}
+p{
+        margin-top: -25px;
+}
+
+.footer-right {
+        background-color: aqua;
+        font-size: 20px;
+        width: auto;
+        line-height: 70px;
+        height: 3rem;
+        float: right;
+        margin-top: -6rem;
+}
+
+.footer-right ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+
+.footer-right li {
+        display: inline-block;
+        position: relative;
+}
+
+.footer-right li a {
+        display: block;
+        padding: 10px 20px;
+        color: #333;
+        text-decoration: none;
+}
+
+.footer-right li:hover {
+        background-color: #ccc;
+}
+
+.footer-right ul ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: none;
+}
+
+.footer-right ul li:hover>ul {
+        display: inherit;
+}
+
+.footer-right ul ul li {
+        display: block;
+        width: 258px;
+}
+
+.footer-right ul ul li a {
+        padding: 10px 15px;
+        color: #fff;
+        background-color: #333;
+}
+
+.footer-right ul ul li:hover a {
+        background-color: #4CAF50;
+}
+.link-lq1{
+        float: right;
+        margin: -324px 40px;
+}
+.link-lq2{
+        float: right;
+}
+p{
+        margin: 40px 50px;
+        font-size: 60px;
+}
+.banner1{
+        border: 1px solid black;
+        width: 10rem;
+        height: 4rem;
+        text-align: center;
+        line-height: -30px;
+}
+.banner2{
+        border: 1px solid black;
+        width: 10rem;
+        height: 4rem;
+        text-align: center;
+        line-height: -30px;
+}
+.banner3{
+        border: 1px solid black;
+        width: 10rem;
+        height: 4rem;
+        text-align: center;
+        line-height: -30px;
+}

@@ -1,0 +1,25 @@
+/* 
+biến toàn cục
+:root
+{
+        --text-color:red;
+}
+h1
+{
+        color: var(--text-color);
+}
+h2
+{
+        color: var(--text-color);
+}
+h3
+{
+        color: var(--text-color);
+} */
+
+/* biến toàn cục */
+h1
+{
+        --my-color:green;
+        color: var(--my-color);
+}

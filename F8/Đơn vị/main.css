@@ -1,0 +1,61 @@
+/* h1
+{
+        color: red;
+}
+h2
+{
+        color: red;
+}
+cho px
+.box
+{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+} */
+
+/* cho %
+.box
+{
+        width: 50%;
+        height: 100px;
+        background-color: red;
+}
+*/
+
+/* cho rem 
+html
+{
+        font-size: 20px;
+}
+h1
+{
+        font-size: 1rem;
+        nếu sửa lại 2 rem thì nhân đôi gtri của font-size là thành 40px
+} */
+
+/* rem nó phụ thuộc vào thẻ html
+còn em nó phụ thuộc vào thẻ gần nhất chứa nó 
+mà có thuộc tính font-size trong trg hợp này 
+html
+{
+        font-size: 20px;
+}
+h1
+{
+        font-size: 2em;
+
+}
+*/
+
+html
+{
+        font-size: 100%;
+}
+.box
+{
+        width: 10vw;
+        height: 20vh;
+        background-color: red;
+}
+*/

@@ -1,0 +1,189 @@
+
+.logo{
+        width: 300px;
+        height: 300px;
+        margin: 20px;
+}
+
+.tieu-de {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        flex-direction: column;
+}
+
+p {
+        color: red;
+}
+
+h2 {
+        color: rgb(8, 0, 255);
+}
+
+hr.red {
+        border-color: red;
+
+        /* chỉnh độ dài cho thanh hr */
+        width: 42%;
+
+        /* chỉnh thanh hr sang bên phía trái */
+        margin-left: -0.025em;
+}
+
+.tieu-de {
+        position: relative;
+
+        /* đặt vị trí tương đối cho phần tử */
+        top: -13rem;
+
+        right: -18rem;
+        /* dịch chuyển phần tử lên*/
+}
+
+
+.menu {
+        background: rgb(0, 110, 255);
+        color: white;
+}
+
+.menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 20px;
+        margin-top: -9em;
+}
+
+.menu li {
+        display: inline-block;
+        position: relative;
+}
+
+.menu li a {
+        display: block;
+        padding: 30px 20px;
+        color: #333;
+        text-decoration: none;
+}
+
+.menu li:hover {
+        background: #ccc;
+}
+
+.menu ul ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: none;
+}
+
+.menu ul li:hover>ul {
+        display: inherit;
+}
+
+.menu ul ul li {
+        display: block;
+        width: 258px;
+}
+
+.menu ul ul li a {
+        padding: 10px 20px;
+        color: #fff;
+        background: #333;
+}
+
+.link {
+        padding: 5px 15px;
+}
+
+ .search-container {
+        display: flex;
+        justify-content: right;
+        float: right;
+        margin-top: -62px;
+}
+
+.search-box {
+        background: white;
+        border-radius: 30px;
+}
+
+.search-box .search-text {
+        border: none;
+        outline: none;
+        background: none;
+        padding: 15px;
+        font-size: 20px;
+}
+
+.search-box .search-btn {
+        border: none;
+        padding: 13px 10px;
+        border-radius: 50%;
+}
+
+button {
+        background:white;
+        outline: none;
+}
+.anh{
+        width: 100%;
+        height: 900px;
+}
+.school{
+        position: absolute;
+        top: 10em;
+        left: 12em;
+        font-size: 45px;
+        color: black;
+}
+.cntt{
+        position: absolute;
+        top: 11.2em;
+        left: 20em;
+        font-size: 45px;
+}
+
+.chaomung{
+        position: absolute;
+        top: 23rem; 
+        left: 18rem; 
+        font-size: 45px;
+}
+.ngay{
+        position: absolute;
+        top: 27rem;
+        left: 32rem;
+        font-size: 70px;
+        color: red;
+}
+.thang{
+        position: absolute;
+        top: 30rem;
+        left: 55rem;
+        font-size: 100px;
+}
+.chucmung{
+        position: absolute;
+        top: 34rem;
+        left: 58rem;
+        font-size: 100px;
+        text-shadow: 5px 5px 10px;
+        color: rgba(255, 77, 0, 0.559);
+}
+.thong-bao{
+        font-size: 50px;
+        padding: 20px;
+        border: 2px solid aqua;
+        width: 500px;
+        border-top-right-radius: 30%;  
+}
+hr.blue {
+        border-color: aqua;
+
+        /* chỉnh độ dài cho thanh hr */
+        width: 100%;
+
+        /* chỉnh thanh hr sang bên phía trái */
+
+        margin-top: -2.8rem;
+}

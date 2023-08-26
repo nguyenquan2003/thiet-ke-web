@@ -1,0 +1,38 @@
+.div1{
+        border: #00f solid 2px;
+        width: 700px;
+        background-color: #ffc;
+        border-radius: 10px;
+        margin: 20px auto;
+}
+.mess{
+        color: red;
+}
+.doc1{
+        font-size: 20px;
+        padding: 20px;
+        text-align: justify;
+        text-indent: 50px;
+}
+
+.div2{
+        border: #00f solid 2px;
+        width: 500px;
+        height: 330px;
+        background: url(Images/Mom.jpg);
+        border-radius: 10px;
+        margin: 20px auto;
+        border-radius: 10px;
+}
+.lesson{
+        color: yellow;
+}
+.doc2{
+        color: white;
+        align-items: center;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 20px;
+        text-align: justify;
+        text-indent: 50px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown</title>
+</head>
+<style>
+    .container{
+        margin: auto;
+        background-color: rgb(168, 235, 235);
+        width: 90%;
+        display: flex;
+    }
+
+    .container img{
+        padding: 10px;
+    }
+
+    .content{
+        margin-left: 15px;
+    }
+    .countDown-box{
+        display: flex;
+    }
+    .box{
+        padding-top: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin: 0 10px;
+        height: 80px;
+        width: 100px;
+        border-radius: 10px;
+        background-color: #1f1c7b;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .box span{
+        color: #ffffff;
+        display: block;
+        margin-top: 15px;
+        font-size: 17px;
+        font-weight: 400;
+    }
+</style>
+<body>
+    <div class="container">
+        <img src="./Images/sale-off-khac-sale-up-to-1.jpg" alt="">
+        <div class="content">
+            <h2 style="color: #17614e;">SALE UP TO 70% OFF</h2>
+            <p style="font-weight: bold;">Kết thúc vào: Thứ ba, 21 tháng 5 năm 2022 11:30am</p>
+            <p style="color: #1f1c7b; font-weight: 550; margin: 30px 0;">Nhanh chân đến mua ngay chương trình sẽ kết thúc nhanh chóng</p>
+            <div class="countDown-box">
+                <div class="box day"></div>
+                <div class="box hour"></div>
+                <div class="box minute"></div>
+                <div class="box sec"></div>
+            </div>
+
+            <p id="TB" style="color: red; font-weight: bold; text-align: center; margin-top: 30px;"></p>
+        </div>
+
+    </div>
+    <script src="./CountDown.js"></script>
+</body>
+</html>

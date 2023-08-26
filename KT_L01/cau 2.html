@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="cau 2.css">
+        <title>Đăng kí chuyên ngành</title>
+</head>
+
+<body>
+        <div>
+                <form>
+                        <table cellpadding="10">
+                                <tr>
+                                        <td>
+                                                <h2>ĐĂNG KÍ CHUYÊN NGÀNH</h2>
+                                        </td>
+                                </tr>
+
+                                <tr>
+                                        <td><b>Họ và tên</b><br>
+                                                <input type="text" name="name" size="41">
+                                        </td>
+                                </tr>
+
+                                <tr>
+                                        <td><b>Chọn chuyên ngành</b><br>
+                                                <select name="luachon">
+                                                        <option value="1">Khoa học máy tính</option>
+                                                        <option value="2">Công nghệ phần mềm</option>
+                                                        <option value="3">An toàn thông tin</option>
+                                                        <option value="4">Mạng máy tính và truyền thông dữ liệu</option>
+                                                </select>
+                                        </td>
+                                </tr>
+
+                                <tr>
+                                        <td><b>Chọn học phần bổ sung chuyên môn (nếu cần)</b><br>
+                                                <input type="checkbox" name="qtkd" id="qtkd" ><label>QTKD</label>
+                                                <input type="checkbox" name="ktkt" id="ktkt"><label>Kế toán kiểm toán</label>
+                                        </td>
+                                </tr>
+
+                                <tr>
+                                        <td><b>Chương trình học</b><br>
+                                                <input type="radio" name="hoc" id="TA"><label for="TA">Tiếng Anh</label>
+                                                <input type="radio" name="hoc" id="TV"><label for="TV">Tiếng Việt</label>
+                                                <input type="radio" name="hoc" id="SN"><label for="SN">Song ngữ</label>
+                                        </td>
+                                </tr>
+
+                                <tr>
+                                        <td><b>Nội dung ghi chú (nếu có)</b><br>
+                                            <textarea rows="5" cols="41" placeholder="Nội dung ghi chú"></textarea><br>
+                                            <input class="dk" type="submit" value="Đăng ký">
+                                            <input class="del" type="submit" value="Xoá chọn lại">
+                                        </td>
+                                </tr>
+                                    
+                        </table>
+                </form>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+.backgr {
+        background-image: url(Images/DaQuy1.JPG);
+        background-repeat: repeat;
+        border: 1px solid #f60;
+}
+
+.textbox {
+        margin: 50px;
+        background-color: white;
+        opacity: 0.5;
+        width: 50%;
+        transition: width 5s;
+}
+
+h1 {
+        margin: 65px;
+        line-height: 100px;
+}
+
+.textbox:hover {
+        width: 100%;
+        opacity: 1;
+}

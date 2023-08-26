@@ -1,0 +1,19 @@
+p{
+        border: solid 1px aqua;
+        background-color: aqua;
+        border-radius: 5px;
+        padding: 10px;
+        padding-bottom: 30px;
+        text-align: center;
+        font-size: 15px;
+        width: 100px;
+        height: 30px;
+        transition: width 2s, height 2s;
+}
+p:hover{
+        width: 300px;
+        height: 60px;
+        background:  aliceblue;
+        border-color: green;
+        box-shadow: 10px 10px 50px gray;
+}

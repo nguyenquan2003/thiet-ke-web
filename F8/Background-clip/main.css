@@ -1,0 +1,15 @@
+html,body{
+        margin: 0;
+}
+.header{
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        padding: 20px;
+        box-sizing: border-box;
+        border: 10px dashed red; /* thêm nét đứt */
+        background-clip: border-box;
+        /* border-box: đây là giá trị mặc định, nghĩa là nền bao phủ đến tận đường viền, thông thường thì cũng như thế rồi, nên bạn chỉ thấy khác biệt ở những giá trị sau…
+        padding-box: nghĩa là nền chỉ bao phủ đến padding mà không bao gồm đường viền.
+        content-box: nghĩa là nền chỉ bao phủ phần nội dung, không gồm padding và viền. */
+}

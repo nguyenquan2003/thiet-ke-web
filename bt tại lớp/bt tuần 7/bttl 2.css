@@ -1,0 +1,12 @@
+h2{
+        font-size: 16px;
+}
+p{
+       border: 1px solid black;
+       text-align: center;
+       height: 2rem;
+}
+.flip:hover{
+        border-color: blue;
+        box-shadow: 3px 3px 3px grey;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<style>
+    /* #e2f0f1
+        #bddee5
+        #79bbc7 */
+        /* 
+        set active lịch sử
+        onclick add active */
+    .container{
+        width: 1000px;
+        height: 400px;
+        background-color: #e2f0f1;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .container img{
+        width: 40%;
+        float: left;
+        border-radius: 10px;
+        margin-right: 20px ;
+        
+    }
+    .tabs{
+        position: relative;
+        float: left;
+        display: flex;
+        background-color: #79bbc7 ;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+
+
+    }
+
+    .tab-item{
+        min-width: 100px;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+        opacity: 0.5;
+    }
+    .tab-item:hover{
+        opacity: 1;
+    }
+    .tab-item .active{
+        opacity: 1;
+        /* display: block; */
+    }
+    .tab-content{
+        width: 58%;
+        float: left;
+        margin-top: 0px;
+    }
+    .tab-pane{
+        text-align: justify;
+        display: none;
+    }
+    .tab-pane .active{
+        display: block;
+    }
+    .active{
+        background-color: white;
+        padding-left: 0px;
+        padding-right: 20px;
+        padding-bottom:20px ;
+
+    }
+    .tab-pane h2, .tab-pane p{
+        margin-left: 20px;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <h1>About</h1>
+        <p style="text-transform: capitalize;">trường đại học công nghiệp thực phẩm</p>
+        <img src="./Images/csvc-hufi-000.jpg" alt="">
+
+        <div class="tabs">
+            <div class="tab-item active">Lịch sử</div>
+            <div class="tab-item">Tầm nhìn</div>
+            <div class="tab-item">Sứ mạng</div>
+        </div>
+
+        <div class="tab-content">
+            <div class="tab-pane active">
+                <h2>Lịch sử</h2>
+                <p>Trường Đại học Công nghiệp Thực phẩm thành phố
+                    Hồ Chí Minh (HUFI) được thành lập từ năm 1982 
+                    và trực thuộc Bộ Công Thương, là trường đào tạo đa ngành với 26 ngành Đại học, 8 ngành Thạc sĩ và 3 ngành đào tạo liên kết quốc tế. 
+                    Hiện tại ở Thành phố Hồ Chí Minh, HUFI có 7 cơ 
+                    sở giáo dục, đào tạo và dịch vụ với tổng diện 
+                    tích đất hơn 6Ha, các cơ sở được đầu tư khang 
+                    trang, hiện đại, đáp ứng điều kiện của một cơ sở 
+                    giáo dục đại học.
+                </p>
+            </div>
+
+            <div class="tab-pane">
+                <h2>Tầm nhìn đến năm 2030:</h2>
+                <p>Đến năm 2030, phát triển Trường Đại học Công nghiệp Thực phẩm TP. Hồ Chí Minh theo định hướng ứng dụng hàng đầu của quốc gia, có vị thế trong khu vực và quốc tế, luôn tiên phong trong lĩnh vực khoa học và công nghệ thực phẩm.</p>
+            </div>
+            <div class="tab-pane">
+                <h2>Sứ mạng</h2>
+                <p>Trường Đại học Công nghiệp Thực phẩm TP. Hồ Chí Minh là cơ sở giáo dục, đào tạo đa ngành, đa lĩnh vực, đa cấp độ và có thế mạnh trong lĩnh vực khoa học và công nghệ thực phẩm: <br>
+                    - Đào tạo nhân lực có đạo đức, tri thức và kỹ năng đáp ứng yêu cầu của xã hội; <br>
+                    - Đẩy mạnh nghiên cứu khoa học, chuyển giao công nghệ và phát triển dịch vụ; <br>
+                    - Thực hiện trách nhiệm xã hội, phục vụ cộng đồng và hội nhập quốc tế
+                </p>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+
+    </div>
+    <script>
+        const tabs = document.querySelectorAll('.tab-item');
+        const panes = document.querySelectorAll('.tab-pane');
+    
+    
+        tabs.forEach(function(tab,index){
+            const pane = panes[index];
+            tab.addEventListener("click",function(){
+                document.querySelector('.tab-item.active').classList.remove('active');
+                document.querySelector('.tab-pane.active').classList.remove('active');
+    
+                this.classList.add('active');
+                pane.classList.add('active');
+            })
+        })
+    
+    
+    </script>
+</body>
+
+</html>

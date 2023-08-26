@@ -1,0 +1,43 @@
+.school{
+        font-size: 16px;
+}
+.anh1{
+        width: 480px;
+        height: 160px;
+        float: right;
+        margin: -140px 300px;
+}
+.tuyen-sinh{
+        font-size: 16px;
+        background: yellow;
+        width: 320px;
+        height: 90px;
+        text-align: center;
+}
+.giang-vien{
+        font-size: 16px;
+        background: pink;
+        width: 320px;
+        height: 90px;
+        text-align: center;
+        float: right;
+        margin: -90px 622px;
+        line-height: 1;
+}
+.text{
+        margin:0.5px; 
+}
+
+.nghien-cuu{
+        font-size: 16px;
+        background: greenyellow;
+        width: 320px;
+        height: 90px;
+        text-align: center;
+        float: right;
+        margin: -90px 300px;
+        line-height: 1;
+}
+.text1{
+        margin: 0.5px;
+}

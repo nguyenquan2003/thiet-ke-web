@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas2</title>
+</head>
+<body>
+    <canvas id="ID1" width="400" height="400" style="border: 1px solid red;">
+
+    </canvas>
+    <script>
+        var c = document.getElementById("ID1");
+        var ctx= c.getContext("2d");
+        ctx.beginPath();
+        ctx.moveTo(0,200);
+        ctx.lineTo(400,200);
+        ctx.stroke();
+        ctx.lineWidth=3;
+
+        ctx.beginPath();
+        ctx.moveTo(100,100);
+        ctx.lineTo(300,300);
+        ctx.stroke();
+        
+
+        ctx.beginPath();
+        ctx.moveTo(200,100);
+        ctx.lineTo(200,300);
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.moveTo(300,100);
+        ctx.lineTo(100,300);
+        ctx.stroke();
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.container {
+        width: 900px;
+        border: 3px solid blue;
+        margin: auto;
+}
+
+.item {
+        border: 3px solid grey;
+        margin: 12px 6px;
+        padding: 12px 6px;
+        background: #EFC0DE;
+}
+
+.fruits {
+        width: 46%;
+        float: left;
+}
+
+.computer {
+        width: 46%;
+        float: right;
+}
+
+.station {
+        width: 97%;
+        clear: both;
+}
+
+p {
+        text-align: justify;
+}

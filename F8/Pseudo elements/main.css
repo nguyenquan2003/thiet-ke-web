@@ -1,0 +1,30 @@
+html,body{
+        margin: 0;
+}
+.box{
+        width: 100%;
+        height: 120px;
+        background: rgb(190, 124, 157);
+}
+
+/* :hover : kích hoạt khi di chuột vào đối tượng đó 
+h1:hover{
+        color: red;
+}
+*/
+
+/* :active : kích hoạt khi bấm chuột vào đối tượng đó 
+h1:active{
+        color: red;
+}
+*/
+
+/* :first-child : lấy ra ptu đầu tiên */
+li:first-child{
+        color: red;
+}
+
+/* :last-child : lấy ra ptu cuối cùng*/
+li:last-child{
+        color: aqua;
+}

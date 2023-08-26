@@ -1,0 +1,13 @@
+h3{
+        text-align: center;
+}
+[class *="col"]{
+        padding: 5px;
+        background: #33b5e5;
+        border: 2px solid #fff;
+        text-align: center;
+}
+.resonponsive{
+        max-width: 100%;
+        height: auto;
+}

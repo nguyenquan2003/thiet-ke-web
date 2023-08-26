@@ -1,0 +1,35 @@
+.li1{
+        border: 2px solid red ;
+        width: 150px;
+        height: auto;
+}
+span{
+        border: 2px solid green;
+        width: 100px;
+        height: auto;
+}
+.li2{
+        border: 2px solid green ;
+        width: 300px;
+        height: auto;
+}
+.li3{
+        list-style-type: lower-alpha;
+}
+.li4{
+        list-style-type: upper-alpha;
+}
+.li5{
+        list-style-type: lower-roman;
+}
+.li6{
+        list-style-type: upper-roman;
+}
+.li7{
+        list-style-type: decimal;
+}
+.li8{
+        border: 2px solid #001cf0;
+        width: 300px;
+        height: auto;
+}

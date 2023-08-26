@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Canvas Logo</title>
+	<style>
+		canvas {
+			background-color: #333;
+			display: block;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="logo"></canvas>
+	<script>
+		var canvas = document.getElementById('logo');
+		var ctx = canvas.getContext('2d');
+		var centerX = canvas.width / 2;
+		var centerY = canvas.height / 2;
+		var radius = 50;
+
+		ctx.beginPath();
+		ctx.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+		ctx.fillStyle = '#ff6600';
+		ctx.fill();
+		ctx.lineWidth = 5;
+		ctx.strokeStyle = '#fff';
+		ctx.stroke();
+	</script>
+</body>
+</html>

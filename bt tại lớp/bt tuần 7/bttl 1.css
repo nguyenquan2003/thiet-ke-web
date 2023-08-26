@@ -1,0 +1,22 @@
+h1{
+        width: 10rem;
+        height: 10rem;
+        background: green;
+        color: white;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+}
+p{
+        text-align: center;
+}
+div{
+        width: 30%;
+        box-shadow: 10px 10px 5px rgba(49, 9, 9, 0.006);
+}
+body{
+        justify-content: center;
+        display: flex;
+}

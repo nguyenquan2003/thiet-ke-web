@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+                integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="BEM.js"></script>
+
+</head>
+
+<body>
+
+        <div>
+                <!-- success -->
+                <div id="toast">
+                        <div class="toast toast--success">
+                                <div class="toast__icon">
+                                        <i class="fas fa-check-circle"></i>
+                                </div>
+
+                                <div class="toast__body">
+                                        <h3 class="toast__title">Success</h3>
+                                        <p class="toast__msg">Máy tính kết nối internet với Windows, Linux, MacOS</p>
+                                </div>
+
+                                <div class="toast__close">
+                                        <i class="fas fa-times"></i>
+                                </div>
+                        </div>
+                </div>
+
+
+
+
+                <!-- info
+                <div class="toast toast--info">
+                        <div class="toast__icon">
+                                <i class="fas fa-check-circle"></i>
+                        </div>
+
+                        <div class="toast__body">
+                                <h3 class="toast__title">Info</h3>
+                                <p class="toast__msg">Máy tính kết nối internet với Windows, Linux, MacOS</p>
+                        </div>
+
+                        <div class="toast__close">
+                                <i class="fas fa-times"></i>
+                        </div>
+                </div>
+
+                warning
+                <div class="toast toast--warning">
+                        <div class="toast__icon">
+                                <i class="fas fa-check-circle"></i>
+                        </div>
+
+                        <div class="toast__body">
+                                <h3 class="toast__title">Warning</h3>
+                                <p class="toast__msg">Máy tính kết nối internet với Windows, Linux, MacOS</p>
+                        </div>
+
+                        <div class="toast__close">
+                                <i class="fas fa-times"></i>
+                        </div>
+                </div>
+
+                error
+                <div class="toast toast--error">
+                        <div class="toast__icon">
+                                <i class="fas fa-check-circle"></i>
+                        </div>
+
+                        <div class="toast__body">
+                                <h3 class="toast__title">Error</h3>
+                                <p class="toast__msg">Máy tính kết nối internet với Windows, Linux, MacOS</p>
+                        </div>
+
+                        <div class="toast__close">
+                                <i class="fas fa-times"></i>
+                        </div>
+                </div> -->
+
+        </div>
+
+        <div>
+                <div onclick="showSuccessToast();" class="btn btn--success">Show success</div>
+                <div class="btn btn--danger">Show error</div>
+        </div>
+
+</body>
+
+</html>

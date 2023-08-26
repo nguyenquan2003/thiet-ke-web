@@ -1,0 +1,14 @@
+#wrap{
+        width: 960px;
+        margin: auto;
+        border: 1px solid black;
+        height: 600px;
+}
+#tren{
+        height: 30%;
+        background-color: green;
+}
+#duoi{
+        height: 70%;
+        background-color: blue;
+}

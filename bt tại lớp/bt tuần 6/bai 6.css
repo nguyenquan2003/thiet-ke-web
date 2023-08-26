@@ -1,0 +1,56 @@
+.t1 {
+        float: right;
+        text-align: right;
+        position: absolute;
+        top: 0;
+        left: 50%;
+
+         /* transform: translateX: để di chuyển phần tử theo trục X (hoành độ) của nó. 
+        Trong trường hợp này, giá trị "-35%" đại diện cho khoảng 
+        cách phần tử sẽ được di chuyển sang bên trái, tính bằng phần trăm độ rộng của phần tử. */
+        transform: translateX(-35%);
+}
+
+.t2 {
+        float: right;
+        text-align: left;
+        position: absolute;
+        top: 0;
+        right: 50%;
+        transform: translateX(-500%);
+}
+
+.p1 {
+        float: right;
+        width: 100%;
+        margin-top: 50px;
+}
+
+.p2 {
+        float: right;
+        width: 100%;
+        margin-top: 0;
+}
+
+.t1 {
+        float: right;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 30px;
+}
+
+.t2 {
+        float: right;
+        position: absolute;
+        top: 55px;
+        right: 0;
+        margin-right: 30px;
+}
+
+.p1 {
+        float: right;
+        width: 50%;
+        margin-top: -200px;
+        margin-right: 50px;
+}

@@ -1,0 +1,38 @@
+.box
+{
+        width: 60px;
+        height: 60px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.box1
+{
+        background-color: black;
+}
+.box2
+{
+        background-color: orange;
+}
+.box3
+{
+        background-color: red;
+        padding: 10px 12px 8px 6px; 
+
+       /* Cách 1:
+       border-width: 3px; viền xung quanh 1 ptử 
+       border-style: solid;
+       border-color: black;*/
+
+       /* Cách 2:
+       border-top-width: 3px;
+       border-right-width: 3px;
+       border-bottom-width: 3px;
+       border-left-width: 3px;
+       border-style: solid;
+       border-color: black; */
+       
+       /* Cách 3: */
+       border: 3px solid black;
+}

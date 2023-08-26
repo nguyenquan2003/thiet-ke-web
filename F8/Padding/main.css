@@ -1,0 +1,32 @@
+.box
+{
+        width: 60px;
+        height: 60px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.box1
+{
+        background-color: black;
+}
+.box2
+{
+        background-color: orange;
+}
+.box3
+{
+        background-color: red;
+        /* padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px; */ 
+
+        padding: 10px 12px 8px 6px; 
+        /* padding : 10px : tự động căn chỉnh 4 hướng right,left,top,bottom = 10 px 
+        10px : bên trên
+        12 px: bên phải
+        8px: bên dưới
+        6px: bên trái */
+}

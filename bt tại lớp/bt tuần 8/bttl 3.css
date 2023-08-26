@@ -1,0 +1,48 @@
+#Menu{
+	width: 90%;
+	margin: 20px auto;
+	background-color: blue;
+}
+#Menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#Menu ul li{
+	float: left;
+	position: relative;
+}
+#Menu ul li a{
+	background-color: blue;
+	display: block;
+	color: white;
+	text-decoration: none;
+	line-height: 30px;
+	padding: 0 10px;
+	margin: 0 1px;
+	text-transform: uppercase;
+}
+#Menu ul li a:hover{
+	background-color: #19C7D0;
+}
+#Menu ul ul{
+	position: absolute; top: 30px; left: 0px;
+}
+#Menu ul ul li{
+	width: 200px;
+}
+#Menu ul ul li a{
+	background-color: #A207A1;
+	padding: 0 10px;
+	margin: 1px 0;
+	text-transform: capitalize;
+}
+#Menu ul ul ul{
+	position: absolute; top: 0; left: 201px;
+}
+#Menu ul ul, #Menu ul ul ul{
+	visibility: hidden;
+}
+#Menu ul li:hover >ul{
+	visibility: visible;
+}

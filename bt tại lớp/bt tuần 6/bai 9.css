@@ -1,0 +1,57 @@
+h1{
+        background: gray;
+        text-align: center;
+        max-width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+}
+h3{
+        background-color: aqua;
+        max-width: 100%;
+        height: 100px;
+        margin: 0;
+        padding: 10px;
+}
+h4{
+        background: aquamarine;
+        max-width: 100%;
+        height: 100px;
+        margin: 0;
+        padding: 5px;
+}
+body{
+        margin: 0;
+        padding: 0;
+}
+
+table{
+        border-collapse: collapse;
+        width: 100%;
+        padding: 10px;
+        height: 200px;
+}
+td{
+        /* thuộc tính vertical-align với giá trị top cho các cột trong thẻ td để đẩy chúng lên trên cùng của hàng */
+        vertical-align: top;
+}
+.menu{
+        background: gray;
+}
+.content{
+        background: rgba(35, 33, 33, 0.362);
+}
+.qc{
+        background: rgba(35, 33, 33, 0.196);
+}
+
+p{
+        background: rgba(39, 38, 38, 0.175);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        height: 50px;
+}

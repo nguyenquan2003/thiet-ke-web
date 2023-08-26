@@ -1,0 +1,73 @@
+.welcome{
+        text-shadow: 0 0 3px #9dff00, 0 0 5px #ffdd00;
+        margin-left: 20px;
+}
+.trang-chu{
+        background: rgb(127, 170, 255);
+        font-size: 20px;
+        height: 100px;
+        padding: 1px;
+}
+.select{
+        color: red;
+        margin-top: -20px;
+        margin-left: 20px;
+}
+.menu {
+        margin: 10px 1px;
+	width: 250px;
+	height: auto;
+	background-color: gray;
+	color: white;
+}
+.menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu ul li{
+	position: relative;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	line-height: 50px;
+	border-bottom: 1px solid #FFFFFF;
+	padding: 0 20px;
+}
+.menu ul li a:hover{
+	background-color: purple;
+}
+.menu ul li:hover >ul{
+	visibility: visible;
+}
+.menu ul ul {
+	position: absolute; 
+        top: 0px; 
+        left: 250px;
+}
+.menu ul ul li{
+	width: 200px;
+}
+.menu ul ul li a{
+	background-color: red;
+	padding: 0 10px;
+}
+.menu ul ul, #Menu ul ul ul{
+	visibility: hidden;
+}
+.menu ul ul:hover >ul{
+	visibility: visible;
+}
+
+table{
+        border: 2px solid orange;
+        margin-left: 260px;
+        margin-top: -263px;
+}
+
+.anh1{
+        width: 200px;
+        height: auto;
+}

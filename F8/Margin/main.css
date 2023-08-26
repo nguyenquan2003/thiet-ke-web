@@ -1,0 +1,29 @@
+.box
+{
+        width: 60px;
+        height: 60px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.box1
+{
+        background-color: black;
+}
+.box2
+{
+        background-color: orange;
+}
+.box3
+{
+        background-color: red;
+
+        /* margin-top: 20px;  */
+        margin: 10px 20px 30px 40px;
+         /*margin: 10px 20px 30px 40px: tự động căn chỉnh 4 hướng right,left,top,bottom
+        10px : bên trên
+        20 px: bên phải
+        30px: bên dưới
+        40px: bên trái */
+}
